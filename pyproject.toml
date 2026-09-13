@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graphs_juvia"
+version = "0.1.0"
+description = "A Python library containing graph-related algorithms."
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]
