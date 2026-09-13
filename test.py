@@ -1,4 +1,4 @@
-from graphs_mcsteestu import sp
+from graphs_juvia import sp
 import sys
 
 if __name__ == '__main__':
